@@ -1,0 +1,76 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    font-size: 1.6em;
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 30px;
+}
+
+label {
+    margin: 0;
+    padding: 0;
+    align-self: center;
+    font-size: 1.2em;
+    color: darkgreen;
+}
+
+input,
+textarea {
+    width: 80%;
+}
+
+input:last-of-type {
+    width: 100px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 0.2fr 2fr;
+    gap: 15px;
+}
+
+@media screen and (max-width:600px) {
+
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    body {
+        background-color: aqua;
+    }
+
+    label {
+        display: block;
+        font-size: 1.5em;
+    }
+
+    form {
+        padding: 20px;
+        display: contents;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 15px;
+        padding-bottom: 25px;
+    }
+    input:last-of-type{
+        padding-bottom: 10px;
+    }
+
+    input[type="checkbox"] {
+        transform: scale(2);
+        margin-top: 10px;
+    }
+
+    input:last-of-type {
+        width: 30%;
+    }
+
+}
