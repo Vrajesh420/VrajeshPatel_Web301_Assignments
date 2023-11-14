@@ -1,0 +1,19 @@
+body{ background-color: aqua;}
+.col-md-4.bg-dark.text-white.p-3 {
+    border: 2px solid white;
+}
+
+
+
+
+@media screen and (max-width:1024px){
+   body{ background-color:gray;
+}
+
+}
+@media screen and (max-width:600px){
+   body{ background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(112,0,36,1) 0%, rgba(115,35,26,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+}
