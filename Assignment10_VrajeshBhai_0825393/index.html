@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <title>Patel Electronics</title>
+    <style>
+        @media (max-width: 600px) { 
+            .mobile-form-top {
+                order: -1; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="mt-3 mb-3">
+            <h1>Vrajeshbhai Patel</h1>
+        </header>
+        <div class="d-flex flex-column mobile-form-top">
+            <div>
+                <form>
+                    <div class="form-group">
+                        <label for="productName">Product Name</label>
+                        <select class="form-control" id="productName">
+                            <option>Laptop</option>
+                            <option>Refrigerator</option>
+                            <option>iPhone 15 Pro Max</option>
+                        </select>
+                    </div>
+                    <div class="form-group form-check form-switch">
+                        <input type="checkbox" class="form-check-input" id="orderSwitch">
+                        <label class="form-check-label" for="orderSwitch">Would you like to order?</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="quantityRange">Quantity</label>
+                        <input type="range" class="form-range" id="quantityRange">
+                    </div>
+                </form>
+            </div>
+
+            <div class="text-center">
+                <img src="laptop.png" class="img-fluid" alt="High-Performance Laptop">
+                <p class="caption mt-2">Asus Tuf Laptop</p>
+            </div>
+
+            <div>
+                <table class="table table-striped mt-4">
+                    <thead>
+                        <tr>
+                            <th scope="col">Product Name</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Quantity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Laptop</td>
+                            <td>$999</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>Refrigerator</td>
+                            <td>$599</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>iPhone 15 Pro Max</td>
+                            <td>$1099</td>
+                            <td>20</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
